@@ -1,0 +1,147 @@
+
+/* Footer Section */
+.footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 20px;
+    font-size: 14px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  
+
+  
+
+
+  .footer-logo p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc;
+    margin-top: 10px;
+  }
+  
+  /* Footer Links */
+  .footer-links {
+    flex: 1;
+    min-width: 150px;
+  }
+  
+  .footer-links h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer Contact */
+  .footer-contact {
+    flex: 1;
+    min-width: 150px;
+  }
+  
+  .footer-contact h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-contact p {
+    margin-bottom: 10px;
+    color: #ccc;
+  }
+  
+  .footer-contact a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer-contact a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Newsletter */
+  .footer-newsletter {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .footer-newsletter form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-newsletter input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .footer-newsletter button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer-newsletter button:hover {
+    background-color: #ffd700;
+  }
+  
+  /* Social Media */
+  .footer-social {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .footer-social a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer-social a img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    color: #ccc;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    color: white;
+  }

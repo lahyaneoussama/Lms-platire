@@ -1,0 +1,142 @@
+.hero {
+  width: 100%;
+  background: linear-gradient(to bottom, #203354 80%, #f9f9f9 60%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 10px;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  gap: 20px;
+}
+
+.hero-text {
+  width: 60%;
+  height: 100%;
+  color: white;
+  text-align: left;
+ 
+}
+
+.hero-text h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  padding-top: 20px;
+  color: white;
+}
+
+.hero-image {
+  text-align: center;
+  width: 300px;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin: auto;
+  margin-top: -170px;
+  border-radius: 8px;
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 1024px) {
+  .hero-content {
+    flex-direction: column-reverse;
+    text-align: center;
+    height: 50%;
+  }
+
+  .hero-text {
+    width: 90%;
+    color: white;
+  }
+
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-text p {
+    font-size: 0.95rem;
+  }
+
+  .hero-image {
+    width: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column-reverse;
+    align-items: center;
+    
+   
+  }
+  .hero {
+    width: 100%;
+    background-color: #203354;
+    background: linear-gradient(to bottom, #203354 40%, #f9f9f9 40%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-text {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin: 10px;
+  
+  }
+
+  .hero-text h1 {
+    font-size: 1.6rem;
+    
+  }
+
+
+  .hero-text p {
+    font-size: 0.9rem;
+  
+  }
+
+  .hero-image {
+    width: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content {
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+
+  .hero-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 1.4rem;
+    margin-top: -50px;
+  }
+
+  .hero-text p {
+    font-size: 0.85rem;
+  }
+
+  .hero-image {
+    width: 0;
+  }
+}

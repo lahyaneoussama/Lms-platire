@@ -1,0 +1,173 @@
+/* Conteneur principal */
+.container_Blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: #f9f9f9;
+  padding: 24px;
+  text-align: center;
+}
+
+/* Titre */
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 32px;
+  color: #ff5f2e;
+}
+
+/* Boutons de navigation */
+.button {
+  background-color: #3b82f6;
+  color: white;
+  margin-top: 8%;
+  font-weight: 600;
+  height: 40px;
+  width: 150px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+  cursor: pointer;
+  border: none;
+}
+
+.button:hover {
+  background-color: #2563eb;
+  transform: scale(1.05);
+}
+
+/* Conteneur des avis */
+.reviews-container {
+  display: flex;
+  gap: 54px;
+  justify-content: center;
+  flex-wrap: wrap;  /* Permet aux avis de passer en colonne sur mobile */
+}
+
+/* Carte d'avis */
+.review {
+  max-width: 300px;
+  padding: 24px;
+  background-color: white;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  text-align: center;
+  transition: all 0.5s;
+  border-bottom: #ff5f2e 4px solid;
+}
+.review:hover {
+ 
+  border-bottom: #203354 4px solid;
+}
+
+/* Avatar */
+.review img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 2px solid #e5e7eb;
+}
+
+/* Nom et étoiles */
+.review .name {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.review .stars {
+  color: #fbbf24;
+}
+
+.review .text {
+  color: #4b5563;
+  margin-top: 12px;
+}
+
+.flex-img{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/* Pour les écrans < 768px (tablettes et mobiles) */
+@media (max-width: 768px) {
+  .container_Blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #f9f9f9;
+    padding: 24px;
+    text-align: center;
+  }
+  .reviews-container {
+    flex-direction: column;  
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+  }
+
+  .review {
+    max-width: 90%;
+    height: 90%; /* Prend presque toute la largeur sur mobile */
+  }
+  
+  .button {
+    width: 160px;
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+}
+
+/* Pour les écrans < 480px (mobiles) */
+@media (max-width: 480px) {
+  .container_Blog {
+    padding: 40px;
+  }
+  .reviews-container {
+    flex-direction: column;  
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .review {
+    padding: 50px;
+  }
+
+  .button {
+    width: 40%; /* Boutons prennent toute la largeur */
+    padding: 12px;
+  }
+}
+@media (min-width: 481px) and (max-width: 1098px) {
+  .reviews-container {
+    gap: 40px; 
+    padding: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    
+  }
+
+  .review {
+    min-width: 60%; 
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .button {
+    width: 120px; 
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+}
