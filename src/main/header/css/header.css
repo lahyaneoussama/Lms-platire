@@ -5,20 +5,13 @@
   box-sizing: border-box;
   color: black;
 }
-
-html {
-  scroll-behavior: smooth;
+header {
+  position:fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+ 
 }
-header{
-  background-color: red;
-}
-body {
-  font-family: 'Open Sans', sans-serif;
-  color: #333;
-  background-color: #fff;
-}
-
-/* Container */
 .container {
   width: 100%;
   margin: 0 auto;
@@ -32,6 +25,8 @@ body {
   align-items: center;
   justify-content: space-between;
   position: relative;
+  box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.185);
+  
 }
 
 /* Logo */

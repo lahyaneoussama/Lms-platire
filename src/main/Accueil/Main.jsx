@@ -15,12 +15,15 @@ export default function Main() {
   return (
     <div>
        <Header />
-       <Advertisement />
+       <section className='advrt'>
+       <Advertisement /> 
+      </section>
        <Aprops />
        <Decore/>
        <Blog /> 
        <Contact />
        <Footer /> 
+     
     </div>
   )
 }

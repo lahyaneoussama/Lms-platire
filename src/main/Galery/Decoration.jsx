@@ -1,7 +1,12 @@
 import React from 'react'
+import "./css/decoration.css"
 
-export default function Decoration() {
+export default function Decoration(props) {
   return (
-    <div></div>
+    <div className='container-img'>
+      <div className='imgaes-decore'>
+        <img src={`platrie/${props.img}`}alt="" />
+      </div>
+    </div>
   )
 }

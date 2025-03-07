@@ -1,0 +1,228 @@
+.container-login {
+    display: flex;
+    width: 80%;
+    margin:  10px auto;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    
+  
+   
+}
+.Login-postion{
+    height: 50%;
+    margin-top: 170px;
+    margin-bottom: 70px;
+}
+.left-panel {
+    background-color: #2C3E50;
+    color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 10px 120px 0px 80px;
+}
+
+.left-panel h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.left-panel p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    text-align: left;
+    color: white;
+    
+}
+
+.left-panel button {
+    background-color: white;
+    color: #2C3E50;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.left-panel button:hover {
+    background-color: #e5f7f0;
+}
+.right-bg{
+    background-color: #2C3E50;
+}
+.right-panel {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0px 120px 0px 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.right-panel h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #2C3E50;
+    box-shadow: 0 0 4px rgba(0, 166, 118, 0.5);
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-actions a {
+    color: #2C3E50;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.form-actions a:hover {
+    text-decoration: underline;
+}
+
+.submit-button {
+    margin-top: 10px;
+    background-color: #2C3E50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #2C3E50;
+}
+
+.signup-link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.signup-link a {
+    color: #dd0c0c;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+
+
+.LogoWhite{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #ffffff;
+
+    
+}
+
+
+.logoOranges .LogoWhite .images img {
+    position: absolute;
+    top:15px;
+    left: 19px;
+    height: 90px;
+    width: 90px;
+   
+}
+
+.Aides{
+    color: black;
+}
+@media screen and (max-width: 768px) {
+    .container-login {
+        flex-direction: column;
+        width: 90%;
+        max-width: 100%;
+        box-shadow: none;
+    }
+
+    .left-panel {
+        border-radius: 10px 10px 0 0;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .right-panel {
+        border-radius: 0 0 10px 10px;
+        padding: 20px;
+    }
+
+    .form-group input {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .submit-button {
+        width: 100%;
+        padding: 12px;
+        font-size: 1rem;
+    }
+
+    .form-actions {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .signup-link {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .left-panel h1 {
+        font-size: 1.5rem;
+    }
+
+    .left-panel p {
+        font-size: 0.9rem;
+    }
+
+    .right-panel h2 {
+        font-size: 1.3rem;
+    }
+
+    .form-group label {
+        font-size: 0.8rem;
+    }
+}
