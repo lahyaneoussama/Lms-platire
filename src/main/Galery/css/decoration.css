@@ -1,0 +1,25 @@
+.container-img{
+    width: 250px;
+    height: 320px;
+    background-color: #ff7300;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin: 20px;
+}
+
+.container-img:hover{
+    background-color: #2C3E50;
+
+}
+.imgaes-decore{
+    width: 250px;
+    height: 315px;
+    border-radius: 20px;
+
+}
+.imgaes-decore img{
+    width: 250px;
+    height: 315px;
+    border-radius: 20px;
+
+}

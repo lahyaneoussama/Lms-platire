@@ -2,6 +2,17 @@ import React from 'react';
 import "./css/footer.css"
 
 export default function Footer() {
+  const Lahcen = "212668367905";
+  const Said= "212662334327";
+  const message = encodeURIComponent("Hello, I need more information!");
+
+const sendWhatsAppMessageLahecn = () => {
+  window.open(`https://wa.me/${Lahcen}?text=${message}`, "_blank");
+
+};
+const sendWhatsAppMessageSaid = () => {
+  window.open(`https://wa.me/${Said}?text=${message}`, "_blank");
+};
   return ( 
   
     <footer className="footer">
@@ -18,19 +29,20 @@ export default function Footer() {
         <h3>Quick Links</h3>
         <ul>
           <li><a href="#">Accueil</a></li>
-          <li><a href="#">À propos</a></li>
           <li><a href="#">Connexion</a></li>
-          <li><a href="#">Inscription</a></li>
+          <li><a href="#">Blog</a></li>
           <li><a href="#">Contactez-nous</a></li>
         </ul>
       </div>
 
       <div class="footer-contact">
         <h3>Contact</h3>
-        <p>06 74 81 19 90</p>
-        <p>05 53 34 56 78</p>
-        <p><a href="mailto:Exemple@gmail.com">Lahyaneoussama2011@gmail.com</a></p>
-        <p>Adresse</p>
+      
+        <p><a onClick={sendWhatsAppMessageLahecn}>+212 668 36 79 05</a></p>
+        <p><a onClick={sendWhatsAppMessageSaid}>+212 662 33 43 27</a></p>
+        
+        <p><a>Lahyaneoussama2011@gmail.com</a></p>
+        <p>RUE LMO9AWMA N 1 El Aioun Sidi Mellouk</p>
       </div>
 
       <div class="footer-newsletter">
@@ -46,7 +58,7 @@ export default function Footer() {
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2025 L'espoir . Tous droits réservés.</p>
+      <p>&copy; 2025 LMS . Tous droits réservés.</p>
     </div>
     </footer>
   
