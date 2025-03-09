@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .dashboard-container {
   font-family: 'Arial', sans-serif;
   max-width: 1200px;
@@ -60,6 +61,17 @@
 
 .metric-Text-parghraphe {
   text-align: center;
+=======
+.container-dash {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 30px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+  }
+>>>>>>> 4c2e91f52f5b74a181aef3034f00301cd41475c5
   
   font-size: 20px;
 }

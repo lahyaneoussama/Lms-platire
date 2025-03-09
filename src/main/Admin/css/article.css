@@ -1,0 +1,66 @@
+/* Style de la card */
+.card {
+    width: 300px;                  /* Largeur de la card */
+    border: 1px solid #ddd;        /* Bordure légère */
+    border-radius: 8px;            /* Coins arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre autour de la card */
+    overflow: hidden;              /* Cache les éléments qui dépassent */
+    background-color: #fff;        /* Couleur de fond */
+    transition: all 0.3s ease;     /* Effet de transition au survol */
+}
+
+/* Image dans la card */
+.card-img {
+    width: 100%;                  /* La largeur de l'image prend toute la largeur de la card */
+    height: 200px;                /* Hauteur fixe */
+    object-fit: cover;            /* L'image couvre l'espace sans être déformée */
+}
+
+/* Contenu à l'intérieur de la card */
+.card-body {
+    padding: 16px;                /* Espacement interne */
+    text-align: center;           /* Aligne le texte au centre */
+}
+
+/* Titre de la card */
+.card-title {
+    font-size: 18px;              /* Taille de la police pour le titre */
+    font-weight: bold;            /* Mettre le titre en gras */
+    color: #333;                  /* Couleur du texte */
+    margin-bottom: 8px;           /* Espacement sous le titre */
+}
+
+/* Description dans la card */
+.card-description {
+    font-size: 14px;              /* Taille de la police pour la description */
+    color: #666;                  /* Couleur du texte */
+    margin-bottom: 16px;          /* Espacement sous la description */
+}
+
+/* Bouton d'action */
+.card-btn {
+    background-color: #007bff;    /* Couleur du fond du bouton */
+    color: white;  
+    margin: 5px 5px;               /* Couleur du texte du bouton */
+    border: none;                 /* Enlève la bordure par défaut */
+    padding: 10px 20px;           /* Espacement interne */
+    font-size: 16px;              /* Taille de la police du bouton */
+    border-radius: 4px;           /* Coins arrondis du bouton */
+    cursor: pointer;              /* Curseur en forme de main */
+    transition: background-color 0.3s ease; /* Effet de transition pour la couleur de fond */
+}
+
+.card-btn:hover {
+    background-color: #0056b3;    /* Couleur du bouton au survol */
+}
+
+/* Effet de survol sur la card */
+.card:hover {
+    transform: translateY(-5px);  /* Légère élévation de la card au survol */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); /* Ombre plus marquée */
+}
+.card-actions{
+    display: flex;
+justify-content: center;
+gap: 10px;
+}
