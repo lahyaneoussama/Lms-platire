@@ -13,7 +13,7 @@ import Contact from '../Page/Contact'
 
 export default function Main() {
   return (
-    <div>
+    <div className='Main'>
        <Header />
        <section className='advrt'>
        <Advertisement /> 

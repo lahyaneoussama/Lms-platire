@@ -7,7 +7,7 @@ export default function Navbar() {
     
     <div class="container header-inner">
     <div class="logo">
-      <a href="#" class="logo-text">LMS Décor</a>
+      <img src="./logo/logo.png" alt="" />
     </div>
 
     

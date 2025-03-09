@@ -16,10 +16,10 @@ header {
   width: 100%;
   margin: 0 auto;
   background-color: #fff;
-  padding: 20px 30px;
+  padding: 20px 10px;
 }
 
-/* Header inner container */
+
 .header-inner {
   display: flex;
   align-items: center;
@@ -30,11 +30,15 @@ header {
 }
 
 /* Logo */
-.logo-text {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #000;
-  text-decoration: none;
+.logo {
+  
+  padding-left: 40px;
+  width: 100px;
+}
+
+.logo img {
+  width: 60px;
+ 
 }
 
 /* Navigation */

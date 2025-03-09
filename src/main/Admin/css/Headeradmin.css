@@ -49,6 +49,7 @@
     color: #000;
     font-weight: 600;
     transition: color 0.3s;
+    cursor: pointer;
   }
   
   .main-nav a:hover {
@@ -56,8 +57,7 @@
     border-bottom: 1px solid #d1561d;
   }
   
-  /* CTA Button */
-  .btn-cta {
+  .btn-dec {
     background-color: #b90808;
     color: #fff;
     padding: 12px 20px;
@@ -67,7 +67,7 @@
     transition: background-color 0.3s;
   }
   
-  .btn-cta:hover {
+  .btn-dec:hover {
     background-color: #9e0000;
   }
   

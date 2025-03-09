@@ -1,5 +1,6 @@
 .hero {
   width: 100%;
+  
   background: linear-gradient(to bottom, #203354 80%, #f9f9f9 60%);
   display: flex;
   justify-content: center;

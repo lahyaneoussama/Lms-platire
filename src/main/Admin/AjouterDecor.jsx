@@ -1,5 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
+import Headeradmin from './Headeradmin';
+import  './css/ajouteproduit.css'
 
 export default function Ajouterdecoration() {
     const [formData, setFormData] = useState({
@@ -19,6 +21,8 @@ export default function Ajouterdecoration() {
       };
     
       return (
+        <>
+        <Headeradmin/>
         <div className="container-dash">
           <h2>Ajouter un Produit</h2>
           <form onSubmit={handleSubmit}>
@@ -48,4 +52,5 @@ export default function Ajouterdecoration() {
             <button type="submit">Valider</button>
           </form>
         </div>
+        </>
       )}

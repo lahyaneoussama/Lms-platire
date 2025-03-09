@@ -1,5 +1,6 @@
 import React from 'react'
 import "./css/Headeradmin.css"
+import { Link } from 'react-router-dom'
 
 
 export default function NavbarAdmin() {
@@ -22,15 +23,26 @@ export default function NavbarAdmin() {
 
     <nav class="main-nav">
       <ul>
+      <Link to="/Dashboard">
+          <li>
+            <a>Dashbord</a>
+          </li>
+      </Link>
+      <Link to="/photos">
         <li>
-          <a>Dashbord</a>
+          <a href="#">Galery</a>
         </li>
+        </Link>
+        
+        <Link to="/AjouterDecoration">
         <li>
           <a href="#">Ajoute Decoration</a>
         </li>
+        </Link>
+        
       </ul>
     </nav>
-    <a href="#" class="btn-cta">Deconnexion</a>
+    <a href="#" class="btn-dec">Deconnexion</a>
   </div>
   
   )
